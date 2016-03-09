@@ -19,8 +19,8 @@
     <!-- CSS -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link href="css/mindloops.css" rel="stylesheet">
-    <!-- <link href="less/mindloops.less" rel="stylesheet/less">
-    <script src="less/less.min.js" type="text/javascript"></script> -->
+    <!-- <link href="css/mindloops.less" rel="stylesheet/less">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.6.1/less.min" type="text/javascript"></script> -->
 
     <!-- Fonts -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -93,7 +93,7 @@
                     </li>
                     <li>
                         <div class="switchlanguage">
-                            <a class="page-scroll" href="http://mindloops.nl">NL</a> / <a href="#">EN</a>
+                            <a href="http://mindloops.nl" hreflang="nl" title="Bekijk in Nederlands">NL</a> / <a href="http://mindloops.io" hreflang="en" title="View in English">EN</a>
                         </div>
                     </li>
                 </ul>
@@ -300,11 +300,13 @@
            <div class="row">
                <div class="col-md-4">
                    <div class="text-center">
-                       <span class="fa-stack fa-4x">
-                           <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                           <i class="fa fa-send fa-stack-1x fa-inverse"></i>
-                       </span>
-                        <p class="large"><a class="mail" href="mailto:&#105;&#110;&#102;&#111;&#064;&#109;&#105;&#110;&#100;&#108;&#111;&#111;&#112;&#115;&#046;&#110;&#108;">&#105;&#110;&#102;&#111;&#064;&#109;&#105;&#110;&#100;&#108;&#111;&#111;&#112;&#115;&#046;&#110;&#108;</a></p>
+                       <a class="mail" href="mailto:&#105;&#110;&#102;&#111;&#064;&#109;&#105;&#110;&#100;&#108;&#111;&#111;&#112;&#115;&#046;&#110;&#108;">
+                           <span class="fa-stack fa-4x">
+                               <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                               <i class="fa fa-send fa-stack-1x fa-inverse"></i>
+                           </span>
+                       </a>
+                       <p class="large"><a class="mail" href="mailto:&#105;&#110;&#102;&#111;&#064;&#109;&#105;&#110;&#100;&#108;&#111;&#111;&#112;&#115;&#046;&#110;&#108;">&#105;&#110;&#102;&#111;&#064;&#109;&#105;&#110;&#100;&#108;&#111;&#111;&#112;&#115;&#046;&#110;&#108;</a></p>
                    </div>
                </div>
                <div class="col-md-4">
