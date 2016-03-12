@@ -10,6 +10,6 @@ Static website of Mindloops, available on [mindloops.nl](http://mindloops.nl) an
 - Make changes to the HTML, commit and push to GitHub.
 - Travis CI will automatically deploy the changes to S3 (for both the .nl and .io website)
 
-#### Delivery pipline
+#### Delivery pipeline
 
-![Delivery pipline](website-delivery-pipeline.png)
+![Delivery pipline](website-deployment-pipeline.png)
