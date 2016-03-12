@@ -6,9 +6,11 @@ deploy:
     bucket: mindloops.nl
     region: eu-west-1
     skip_cleanup: true
+    index_document_suffix: index.html
   - provider: s3
     access_key_id: $AWS_ACCESS_KEY
     secret_access_key: $AWS_SECRET_KEY
     bucket: mindloops.io
     region: eu-west-1
     skip_cleanup: true
+    index_document_suffix: index_en.html

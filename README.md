@@ -1,5 +1,5 @@
 # Mindloops website [![Build Status](https://travis-ci.org/mindloops/mindloops.github.io.svg?branch=master)](https://travis-ci.org/mindloops/mindloops.github.io)
-Mindloops static website, available on [mindloops.nl](http://mindloops.nl) and [mindloops.io](http://mindloops.io) 
+Static website of Mindloops, available on [mindloops.nl](http://mindloops.nl) and [mindloops.io](http://mindloops.io) 
 
 #### Local development
 
@@ -7,5 +7,5 @@ Mindloops static website, available on [mindloops.nl](http://mindloops.nl) and [
 - Install npm: `brew install npm`
 - Install node's http-server `npm install -g http-server`
 - Enter `http-server` to locally serve this website on `localhost:8080` 
-- Make changes, commit and push to GitHub.
+- Make changes to the HTML, commit and push to GitHub.
 - Travis CI will automatically deploy the changes to S3 (for both the .nl and .io website)
