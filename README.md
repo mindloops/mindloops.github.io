@@ -1,5 +1,5 @@
 # Mindloops website [![Build Status](https://travis-ci.org/mindloops/mindloops.github.io.svg?branch=master)](https://travis-ci.org/mindloops/mindloops.github.io)
-Static website of Mindloops, available on [mindloops.nl](http://mindloops.nl) and [mindloops.io](http://mindloops.io) 
+Static website for Mindloops, available on [mindloops.nl](http://mindloops.nl) and [mindloops.io](http://mindloops.io) 
 
 #### Local development
 
