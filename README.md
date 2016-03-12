@@ -9,3 +9,7 @@ Static website of Mindloops, available on [mindloops.nl](http://mindloops.nl) an
 - Enter `http-server` to locally serve this website on `localhost:8080` 
 - Make changes to the HTML, commit and push to GitHub.
 - Travis CI will automatically deploy the changes to S3 (for both the .nl and .io website)
+
+#### Delivery pipline
+
+![Delivery pipline](website-delivery-pipeline.png)

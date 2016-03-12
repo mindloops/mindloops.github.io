@@ -6,6 +6,7 @@ deploy:
     bucket: mindloops.nl
     region: eu-west-1
     skip_cleanup: true
+    #  note: make sure to update the associated CloudFront distribution when changing the value below
     index_document_suffix: index.html
   - provider: s3
     access_key_id: $AWS_ACCESS_KEY
@@ -13,4 +14,5 @@ deploy:
     bucket: mindloops.io
     region: eu-west-1
     skip_cleanup: true
+    #  note: make sure to update the associated CloudFront distribution when changing the value below
     index_document_suffix: index_en.html
